@@ -40,7 +40,7 @@ class Func{
 	}
 	
 	/*
-	* Método uqe verifica e deConvert caracteres especiais em um Array
+	* Método que verifica e deConvert caracteres especiais em um Array
 	*/
 	public function htmlspecialcharsArray($array){
 		if(!is_array($array)) return false;
